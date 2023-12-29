@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "373869365780",
+    "project_id": "iotmobileapp-bc94c",
+    "storage_bucket": "iotmobileapp-bc94c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:373869365780:android:affa58242d5083101eb501",
+        "android_client_info": {
+          "package_name": "com.ozalp.iot"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAux0OfJQfgeORg_UlXQPTjjOfmf9Ru4Ms"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

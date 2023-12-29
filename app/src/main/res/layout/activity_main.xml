@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/gradient_background"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/hk"></ImageView>-
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="224dp"
+            android:layout_height="68dp"
+            android:layout_marginTop="10dp"
+            android:text="Evinizin güncel sıcaklığı:"
+            android:textAlignment="center"
+            android:textSize="22dp"
+            tools:layout_editor_absoluteX="61dp"
+            tools:layout_editor_absoluteY="119dp" />
+
+        <TextView
+            android:id="@+id/settedTemperatureTextView"
+            android:layout_width="224dp"
+            android:layout_height="68dp"
+            android:layout_marginTop="10dp"
+            android:text="Ayarlanan sıcaklık:"
+            android:textAlignment="center"
+            android:textSize="22dp"
+            tools:layout_editor_absoluteX="61dp"
+            tools:layout_editor_absoluteY="222dp" />
+
+        <SeekBar
+            android:id="@+id/seekBar"
+            android:layout_width="294dp"
+            android:layout_height="68dp"
+            android:layout_marginTop="10dp"
+            tools:layout_editor_absoluteX="35dp"
+            tools:layout_editor_absoluteY="327dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="sendToFirebase"
+            android:text="Veriyi gönder"
+            tools:layout_editor_absoluteX="145dp"
+            tools:layout_editor_absoluteY="455dp" />
+
+        <TextView
+            android:id="@+id/climateTextView"
+            android:layout_width="224dp"
+            android:layout_height="68dp"
+            android:layout_marginTop="10dp"
+            android:text=""
+            android:textSize="24dp"
+            tools:layout_editor_absoluteX="61dp"
+            tools:layout_editor_absoluteY="222dp" />
+    </LinearLayout>
